@@ -1,0 +1,84 @@
+.productPage-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.productPage-back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.productPage-back-link:hover {
+    text-decoration: underline;
+}
+
+.productPage-section {
+    display: flex;
+    gap: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.productPage-images {
+    flex: 1;
+    background-color: rgb(248, 248, 248);
+}
+
+.productPage-thumbnail {
+    width: 80px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.productPage-main-image {
+    width: 100%;
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+}
+
+.productPage-details {
+    flex: 1;
+    align-content: center;
+}
+
+
+
+.productPage-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.productPage-btn {
+    padding: 10px 20px;
+    border: 1px solid #333;
+    background: #333;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.productPage-removeBtn {
+    padding: 10px 20px;
+    border: 1px solid #333;
+    background: #ebebeb;
+    color: #313131;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.productPage-btn:hover {
+    background: #000000;
+}
